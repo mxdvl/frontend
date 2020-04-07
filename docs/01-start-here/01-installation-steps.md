@@ -99,9 +99,9 @@ Mac: Install from [Oracle web site](http://www.oracle.com/technetwork/java/javas
 
 ### [Node.js](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)
 
-The frontend uses an `.nvmrc` which specifies Node 8.x as a requirement. If you use 
+The frontend uses an `.nvmrc` which specifies Node 10.x as a requirement. If you use 
 [NVM](https://github.com/creationix/nvm#install-script) to manage multiple versions of Node on your machine, you can 
-just `nvm use` (or `nvm install` if you don't have 8 installed yet).
+just `nvm use` (or `nvm install` if you don't have 10 installed yet).
 
 To install nvm:
 
@@ -118,14 +118,14 @@ If you just want to use your system Node, you'll need to install v8:
 Ubuntu:
 
 ```bash
-$ curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
+$ curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
 $ sudo apt-get install -y nodejs
 ```
 
 Mac:
 
 ```bash
-$ brew install node@8
+$ brew install node@10
 ```
 
 
